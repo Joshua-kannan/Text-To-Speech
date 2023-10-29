@@ -141,7 +141,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 1; /* Add a z-index to ensure it's on top of other content */
+     z-index: 1; /* Add a z-index to ensure it's on top of other content */
 }
 /* Add these styles to your CSS to change the link color in the footer */
 footer a {
@@ -151,4 +151,12 @@ footer a {
 
 footer a:hover {
     color: #ff2963; /* Add an underline on hover if desired */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    height: auto;
+    font-size: 25px;
 }
