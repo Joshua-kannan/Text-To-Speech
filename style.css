@@ -145,12 +145,12 @@ footer {
 }
 /* Add these styles to your CSS to change the link color in the footer */
 footer a {
-    color: #fff; /* Change to your desired color */
+    color: #ff2963; /* Change to your desired color */
     text-decoration: none; /* Remove the underline on the link */
 }
 
 footer a:hover {
-    color: #ff2963; /* Add an underline on hover if desired */
+    color: #3da1f3; /* Add an underline on hover if desired */
 }
 header {
     background-color: #333;
