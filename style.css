@@ -110,11 +110,11 @@ select{
         text-align: center;
     }
     footer {
-        background-color: #474242;
+        background-color: #332e2e;
         color: #fff;
         padding: 10px 0;
         text-align: center;
-        position: absolute;
+        position: static;
         bottom: 0;
         width: 100%;
         font-size: 12px;
