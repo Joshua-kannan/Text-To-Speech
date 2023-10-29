@@ -27,7 +27,7 @@
     color: #ff2963;
  }
 textarea{
-    width: 600px;
+    width: 700px;
     height: 250px;
     background: #403d84;
     color: #fff;
@@ -44,7 +44,7 @@ textarea::placeholder{
     color: #ddd;
 }
 .row{
-    width: 600px;
+    width: 700px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -81,6 +81,7 @@ select{
     background-size: 15px;
     background-position-x: calc(100% - 20px);
     background-position-y: 20px;
+    
 }
 
 /* Add your existing CSS styles here */
@@ -108,4 +109,46 @@ select{
         margin-top: 20px; /* Add spacing below the select element */
         text-align: center;
     }
+    footer {
+        background-color: #474242;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 12px;
+    }
+    /* Add these styles to your CSS to change the link color in the footer */
+    footer a {
+        color: #fff; /* Change to your desired color */
+        text-decoration: none; /* Remove the underline on the link */
+    }
+    
+    footer a:hover {
+        color: #ff2963; /* Add an underline on hover if desired */
+    }
+    
+}
+
+
+
+/* Add these styles for the footer */
+footer {
+    background-color: #332e2e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Add these styles to your CSS to change the link color in the footer */
+footer a {
+    color: #fff; /* Change to your desired color */
+    text-decoration: none; /* Remove the underline on the link */
+}
+
+footer a:hover {
+    color: #ff2963; /* Add an underline on hover if desired */
 }
