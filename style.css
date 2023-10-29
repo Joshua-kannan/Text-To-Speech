@@ -114,7 +114,7 @@ select{
         color: #fff;
         padding: 10px 0;
         text-align: center;
-        position: static;
+        position: fixed;
         bottom: 0;
         width: 100%;
         font-size: 12px;
