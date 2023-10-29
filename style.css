@@ -132,16 +132,16 @@ select{
 }
 
 
-
 /* Add these styles for the footer */
 footer {
     background-color: #332e2e;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 1; /* Add a z-index to ensure it's on top of other content */
 }
 /* Add these styles to your CSS to change the link color in the footer */
 footer a {
