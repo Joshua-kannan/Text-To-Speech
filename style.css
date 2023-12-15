@@ -84,29 +84,26 @@ select{
     
 }
 
-/* Add your existing CSS styles here */
-
-/* Media Query for screens smaller than 768px (e.g., mobile devices) */
 @media screen and (max-width: 730px) {
     .hero h1 {
-        font-size: 36px; /* Adjust the font size for smaller screens */
+        font-size: 36px; 
         text-align: center;
     }
     textarea {
-        width: 85%; /* Expand the textarea to the full width of the screen */
+        width: 85%; 
     }
     .row {
-        width: 85%; /* Expand the row to the full width of the screen */
-        flex-direction: column; /* Change the direction to stack elements vertically */
-        align-items: flex-start; /* Align elements to the left */
+        width: 85%; 
+        flex-direction: column; 
+        align-items: flex-start; 
     }
     button {
-        width: 100%; /* Make the button full-width */
-        margin-top: 20px; /* Add some spacing between the button and the textarea */
+        width: 100%; 
+        margin-top: 20px;
     }
     select {
-        width: 100%; /* Make the select element full-width */
-        margin-top: 20px; /* Add spacing below the select element */
+        width: 100%; 
+        margin-top: 20px; 
         text-align: center;
     }
     footer {
@@ -119,20 +116,15 @@ select{
         width: 100%;
         font-size: 12px;
     }
-    /* Add these styles to your CSS to change the link color in the footer */
     footer a {
-        color: #fff; /* Change to your desired color */
-        text-decoration: none; /* Remove the underline on the link */
+        color: #fff; 
+        text-decoration: none; 
     }
-    
     footer a:hover {
-        color: #ff2963; /* Add an underline on hover if desired */
-    }
-    
+        color: #ff2963; 
+    } 
 }
 
-
-/* Add these styles for the footer */
 footer {
     background-color: #332e2e;
     color: #fff;
@@ -141,16 +133,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-     z-index: 1; /* Add a z-index to ensure it's on top of other content */
+     z-index: 1; 
 }
-/* Add these styles to your CSS to change the link color in the footer */
+
 footer a {
-    color: #ff2963; /* Change to your desired color */
-    text-decoration: none; /* Remove the underline on the link */
+    color: #ff2963; 
+    text-decoration: none; 
 }
 
 footer a:hover {
-    color: #3da1f3; /* Add an underline on hover if desired */
+    color: #3da1f3; 
 }
 header {
     background-color: #333;
